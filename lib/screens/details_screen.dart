@@ -11,14 +11,14 @@ class DetailsScreen extends StatelessWidget {
       appBar: AppBar(title: Text(recipe.name)),
       body: Center(
         child: SingleChildScrollView(
-          padding: const EdgeInsets.all(24), // more outer padding
+          padding: const EdgeInsets.all(24),
           child: Card(
             elevation: 6,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(20),
             ),
             child: Padding(
-              padding: const EdgeInsets.all(24), // more inner padding
+              padding: const EdgeInsets.all(24),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -42,7 +42,6 @@ class DetailsScreen extends StatelessWidget {
 
                   const SizedBox(height: 32),
 
-                  // INGREDIENTS CARD
                   Card(
                     color: Colors.grey.shade100,
                     elevation: 2,
@@ -71,7 +70,6 @@ class DetailsScreen extends StatelessWidget {
 
                   const SizedBox(height: 32),
 
-                  // INSTRUCTIONS
                   Align(
                     alignment: Alignment.centerLeft,
                     child: Text(
