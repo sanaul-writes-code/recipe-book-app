@@ -3,7 +3,7 @@ import '../models/recipe.dart';
 final List<Recipe> sampleRecipes = [
   Recipe(
     name: 'Beef Kala Bhuna',
-    imagePath: 'assets/images/beef_kala_bhuna.jpg',
+    imagePath: 'assets/images/beef_kala_bhuna.png',
     ingredients: [
       'Beef',
       'Onion',
@@ -22,7 +22,7 @@ final List<Recipe> sampleRecipes = [
 
   Recipe(
     name: 'Mutton Biryani',
-    imagePath: 'assets/images/mutton_biryani.jpg',
+    imagePath: 'assets/images/mutton_biryani.png',
     ingredients: [
       'Basmati rice',
       'Mutton',
@@ -41,7 +41,7 @@ final List<Recipe> sampleRecipes = [
 
   Recipe(
     name: 'Chotpoti',
-    imagePath: 'assets/images/chotpoti.jpg',
+    imagePath: 'assets/images/chotpoti.png',
     ingredients: [
       'Yellow peas',
       'Potatoes',
@@ -60,7 +60,7 @@ final List<Recipe> sampleRecipes = [
 
   Recipe(
     name: 'Cham Cham',
-    imagePath: 'assets/images/cham_cham.jpg',
+    imagePath: 'assets/images/cham_cham.png',
     ingredients: [
       'Chhena (fresh paneer)',
       'Sugar',
